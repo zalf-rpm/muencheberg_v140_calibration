@@ -1,0 +1,10 @@
+name;position in array;low;high;stepsize;optguess;minbound;maxbound;derived params
+StageTemperatureSum;1;75;140;1;;;;
+StageTemperatureSum;2;198;369;1;;;;
+StageTemperatureSum;3;168;312;1;;;;
+StageTemperatureSum;4;84;156;1;;;;
+StageTemperatureSum;5;238;442;1;;;;
+StageTemperatureSum;6;17;32;1;;;;
+BaseDaylength;3;4;10;1;;;;
+DaylengthRequirement;2;14;26;1;;;;
+DaylengthRequirement;3;14;26;1;;;;
