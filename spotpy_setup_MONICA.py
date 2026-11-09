@@ -235,6 +235,13 @@ class SpotSetup(object):
                       if name in crop["cropParams"][s]]
             owner = owners[0]
             original = owner[name]
+            if name == "SpecificLeafArea":
+                factor = float(value)
+                if isinstance(original[0], list):
+                    original[0] = [float(v) * factor for v in original[0]]  # [[stage values], "unit"]
+                else:
+                    owner[name] = [float(v) * factor for v in original]  # [stage values]
+                continue
             if pd.notna(row["position in array"]):
                 array = original[0] if isinstance(original[0], list) else original
                 index = int(row["position in array"]) - 1
