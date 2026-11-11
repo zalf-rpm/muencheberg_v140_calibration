@@ -627,12 +627,6 @@
                         "depth": [0.25, "m"]
                     },
                     {
-                        "date": "1982-03-29",
-                        "type": "MineralFertilization",
-                        "amount": [75, "kg N"],
-                        "partition": ["ref", "fert-params", "AN"]
-                    },
-                    {
                         "date": "1982-03-26",
                         "type": "Sowing",
                         "crop": ["ref", "crops", "SG"]
