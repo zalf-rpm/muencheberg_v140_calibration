@@ -14,3 +14,5 @@ DroughtStressThreshold;3;0.5;1;0.01;;;;
 DroughtStressThreshold;4;0.5;1;0.01;;;;
 DroughtStressThreshold;5;0.4;1;0.01;;;;
 DroughtStressThreshold;6;0.3;1;0.01;;;;
+SpecificLeafArea;;0.5;1.5;0.1;;;;
+MaxAssimilationRate;;30;40;1;;;;
