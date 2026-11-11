@@ -9,7 +9,7 @@
                 "is-winter-crop": false,
                 "cropParams": {
                     "species": ["include-from-file", "crops/maize.json"],
-                    "cultivar": ["include-from-file", "crops/maize/silage-maize.json"]
+                    "cultivar": ["include-from-file", "crops/maize/silage-maize_modoklim_pheno.json"]
                 },
                 "residueParams": ["include-from-file", "crop-residues/maize.json"]
             
@@ -18,7 +18,7 @@
                 "is-winter-crop": true,
                 "cropParams": {
                     "species": ["include-from-file", "crops/rye.json"],
-                    "cultivar": ["include-from-file", "crops/rye/winter-rye.json"]
+                    "cultivar": ["include-from-file", "crops/rye/winter-rye_modoklim_pheno.json"]
                 },
                 "residueParams": ["include-from-file", "crop-residues/rye.json"]
             
@@ -54,7 +54,7 @@
                 "is-winter-crop": false,
                 "cropParams": {
                     "species": ["include-from-file", "crops/barley.json"],
-                    "cultivar": ["include-from-file", "crops/barley/spring-barley.json"]
+                    "cultivar": ["include-from-file", "crops/barley/spring-barley_modoklim_pheno.json"]
                 },
                 "residueParams": ["include-from-file", "crop-residues/barley.json"]
             
@@ -63,7 +63,7 @@
                 "is-winter-crop": true,
                 "cropParams": {
                     "species": ["include-from-file", "crops/wheat.json"],
-                    "cultivar": ["include-from-file", "crops/wheat/winter-wheat.json"]
+                    "cultivar": ["include-from-file", "crops/wheat/winter-wheat_modoklim_pheno.json"]
                 },
                 "residueParams": ["include-from-file", "crop-residues/wheat.json"]
             

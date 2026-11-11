@@ -17,8 +17,8 @@ class SpotSetup(object):
     """SPOTPY setup for Müncheberg V140 crop rotations."""
 
     BASE_PATH = Path(__file__).resolve().parent
-    MONICA_EXECUTABLE = Path(r"C:\MONICA\monica_win64_3.7.1.improved_merge_climate_data\bin\monica-run.exe")
-    MONICA_PARAMETERS = Path(os.environ.get("MONICA_PARAMETERS", r"C:\zalf-rpm\monica-parameters"))
+    MONICA_EXECUTABLE = Path(r"C:\MONICA\monica_win64_3.7.3.3_fixes_and_time_under_anoxia_365d\bin\monica-run.exe")
+    MONICA_PARAMETERS = Path(os.environ.get("MONICA_PARAMETERS", r"C:\MONICA\monica_win64_3.7.3.3_fixes_and_time_under_anoxia_365d\monica-parameters_update_3.7.3.3"))
     OUTPUT_DIR = BASE_PATH / "calib_out"
     PARALLEL_RUNS = 4  # Number of plots to run at once
 

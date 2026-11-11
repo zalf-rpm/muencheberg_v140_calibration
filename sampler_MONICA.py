@@ -11,25 +11,22 @@ import numpy as np
 
 # Define experiments (=crops), parameters to calibrate, and repetitions.
 
-crop_sim_site_MAP = "crop_sim_site_MAP_WW.csv"
+crop_sim_site_MAP = "crop_sim_site_MAP_WW_mineral.csv"
 calib_params_file = "calibratethese_ww_bio.csv"
 
-# crop_sim_site_MAP = "crop_sim_site_MAP_WB.csv"
-# calib_params_file = "calibratethese_wb_bio.csv"
-
-# crop_sim_site_MAP = "crop_sim_site_MAP_SB.csv" 
+# crop_sim_site_MAP = "crop_sim_site_MAP_SB_mineral.csv" 
 # calib_params_file = "calibratethese_sb_bio.csv"
 
-# crop_sim_site_MAP = "crop_sim_site_MAP_WR.csv"
+# crop_sim_site_MAP = "crop_sim_site_MAP_WR_mineral.csv"
 # calib_params_file = "calibratethese_wr_bio.csv"
 
-# crop_sim_site_MAP = "crop_sim_site_MAP_SM.csv"
+# crop_sim_site_MAP = "crop_sim_site_MAP_SM_mineral.csv"
 # calib_params_file = "calibratethese_sm_bio.csv"
 
-# crop_sim_site_MAP = "crop_sim_site_MAP_SW.csv" 
+# crop_sim_site_MAP = "crop_sim_site_MAP_SW_mineral.csv" 
 # calib_params_file = "calibratethese_sw_bio.csv"
 
-rep = 2
+rep = 5
 show_plots = False
 output_dir = spotpy_setup_MONICA.SpotSetup.OUTPUT_DIR
 
