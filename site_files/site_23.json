@@ -15,19 +15,23 @@
                 "Thickness": [0.3, "m"],
                 "SoilOrganicCarbon": [0.62, "%"],
                 "KA5TextureClass": "Sl2",
-                "SoilRawDensity": ["bulk-density-class->raw-density", 2, ["KA5-texture-class->clay", "Sl2"]]
+                "SoilRawDensity": ["bulk-density-class->raw-density", 2, ["KA5-texture-class->clay", "Sl2"]],
+                "CN": 9,
+                "Lambda": ["sand-and-clay->lambda", ["KA5-texture-class->sand", "Sl2"], ["KA5-texture-class->clay", "Sl2"]]
             },
             {
                 "Thickness": 0.3,
                 "SoilOrganicCarbon": [0.22, "%"],
                 "KA5TextureClass": "Sl2",
-                "SoilRawDensity": ["bulk-density-class->raw-density", 3, ["KA5-texture-class->clay", "Sl2"]]
+                "SoilRawDensity": ["bulk-density-class->raw-density", 3, ["KA5-texture-class->clay", "Sl2"]],
+                "CN": 9
             },
             {
                 "Thickness": 1.4,
                 "SoilOrganicCarbon": [0.05, "%"],
                 "KA5TextureClass": "Sl2",
-                "SoilRawDensity": ["bulk-density-class->raw-density", 3, ["KA5-texture-class->clay", "Sl2"]]
+                "SoilRawDensity": ["bulk-density-class->raw-density", 3, ["KA5-texture-class->clay", "Sl2"]],
+                "CN": 9
             }
         ]
     },
