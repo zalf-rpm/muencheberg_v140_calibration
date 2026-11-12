@@ -76,7 +76,7 @@
     "__turn on/off some model switches": "",
     "UseSecondaryYields": true,
     "NitrogenResponseOn": true,
-    "WaterDeficitResponseOn": false,
+    "WaterDeficitResponseOn": true,
     "EmergenceMoistureControlOn": false,
     "EmergenceFloodingControlOn": false,
     "__if monica internal automatic irrigation is to be used, configure donations here": "",
