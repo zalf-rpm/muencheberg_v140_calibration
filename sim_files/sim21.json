@@ -80,8 +80,8 @@
     "UseSecondaryYields": true,
     "NitrogenResponseOn": true,
     "WaterDeficitResponseOn": true,
-    "EmergenceMoistureControlOn": true,
-    "EmergenceFloodingControlOn": true,
+    "EmergenceMoistureControlOn": false,
+    "EmergenceFloodingControlOn": false,
     "__if monica internal automatic irrigation is to be used, configure donations here": "",
     "UseAutomaticIrrigation": false,
     "AutoIrrigationParams": {
